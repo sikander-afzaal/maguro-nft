@@ -15,12 +15,12 @@ const Traits = () => {
     },
     {
       title: "Rewards",
-      desc: "We all know this is why you're here! We dish out a constant stream of rewards by simply holding $HAMI in your wallet. Passively build positions in a wide variety of projects.",
+      desc: "Any hot project on Arbitrum Network can be farmed during a certain period of time",
       img: "/rewards.png",
     },
     {
       title: "Your Choice!",
-      desc: "Disagree with the coin we're farming? That's Ok we can't all be on the same page all of the time. Choose to take your rewards in $HAMI instead by smashing the 'GO HAMI' button.",
+      desc: "Disagree with the coin we're farming? That's Ok we can't all be on the same page all of the time. Choose to take your rewards in $MAGURO instead by smashing the 'GO MAGURO' button.",
       img: "/choice.png",
     },
     {
@@ -30,7 +30,7 @@ const Traits = () => {
     },
     {
       title: "Expansion",
-      desc: "Hamachi Finance will start on Arbitrum with plans to go cross-chain and accumulate ERC-20 tokens from additional chains in the future. Details TBA however the OG $HAMI token will remain the key to accessing future launches.",
+      desc: "Maguro Finance will start on Arbitrum with plans to go cross-chain and accumulate ERC-20 tokens from additional chains in the future. Details TBA however the OG $MAGURO token will remain the key to accessing future launches.",
       img: "/expansion.png",
     },
   ];
