@@ -2,6 +2,38 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 
 const Traits = () => {
+  const DATA = [
+    {
+      title: "Stay up to date",
+      desc: "Our goal is to become the ultimate community hub on the arbitrum chain. We're an active community and regularly hold AMAs with teams and project updates.",
+      img: "/upto-date.png",
+    },
+    {
+      title: "Diversify your portfolio",
+      desc: "Our contract buys the best projects on Arbitrum. Trusting the wisdom of the crowd to decide which projects to chose through our governance system.",
+      img: "/portfolio.png",
+    },
+    {
+      title: "Rewards",
+      desc: "We all know this is why you're here! We dish out a constant stream of rewards by simply holding $HAMI in your wallet. Passively build positions in a wide variety of projects.",
+      img: "/rewards.png",
+    },
+    {
+      title: "Your Choice!",
+      desc: "Disagree with the coin we're farming? That's Ok we can't all be on the same page all of the time. Choose to take your rewards in $HAMI instead by smashing the 'GO HAMI' button.",
+      img: "/choice.png",
+    },
+    {
+      title: "Exposure",
+      desc: "We want to help other projects grow. We bring buy volume, market exposure, and additional wallets, something that can be potentially leveraged to benefit our community in the future.",
+      img: "/exposure.png",
+    },
+    {
+      title: "Expansion",
+      desc: "Hamachi Finance will start on Arbitrum with plans to go cross-chain and accumulate ERC-20 tokens from additional chains in the future. Details TBA however the OG $HAMI token will remain the key to accessing future launches.",
+      img: "/expansion.png",
+    },
+  ];
   return (
     <div className="wrapper mt-10 sm:mt-20">
       <div className="contain justify-between xl:flex-row flex-col items-center text-center sm:text-left sm:items-start xl:items-center gap-4 xl:gap-6">
@@ -41,18 +73,13 @@ const Traits = () => {
             },
           }}
         >
-          <SplideSlide>
-            <TraitBox />
-          </SplideSlide>
-          <SplideSlide>
-            <TraitBox />
-          </SplideSlide>
-          <SplideSlide>
-            <TraitBox />
-          </SplideSlide>
-          <SplideSlide>
-            <TraitBox />
-          </SplideSlide>
+          {DATA.map((elem, idx) => {
+            return (
+              <SplideSlide key={idx + elem.title}>
+                <TraitBox {...elem} />
+              </SplideSlide>
+            );
+          })}
         </Splide>
       </div>
     </div>
@@ -61,23 +88,13 @@ const Traits = () => {
 
 export default Traits;
 
-const TraitBox = () => {
+const TraitBox = ({ title, desc, img }) => {
   return (
     <div className=" flex justify-start text-center items-center flex-col sm:w-full w-[95%] max-w-[368px] rounded-[40px] p-5 sm:p-[32px] bg-primaryGr ">
-      <img
-        src="/upto-date.png"
-        className="w-full object-contain aspect-square"
-        alt=""
-      />
+      <img src={img} className="w-full object-contain aspect-square" alt="" />
       <div>
-        <h4 className="text-white mt-4  font-bold text-[28px]">
-          Stay up to date
-        </h4>
-        <p className="font-mont mt-1 text-white text-sm">
-          Our goal is to become the ultimate community hub on the arbitrum
-          chain. We're an active community and regularly hold AMAs with teams
-          and project updates.
-        </p>
+        <h4 className="text-white mt-4  font-bold text-[28px]">{title}</h4>
+        <p className="font-mont mt-1 text-white text-sm">{desc}</p>
       </div>
     </div>
   );
