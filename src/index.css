@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Lapsus;
+  src: url("/font/LapsusPro-Bold.otf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: Mont;
+  src: url("/font/Mont-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: Mont;
+  src: url("/font/Mont-Regular.ttf");
+  font-weight: 400;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .wrapper {
+    @apply flex justify-start items-center flex-col w-full;
+  }
+  .contain {
+    @apply flex w-[90%] max-w-[1600px];
+  }
+}
+@layer components {
+  .traits .splide__track {
+    @apply py-[40px] sm:py-[60px];
+  }
+  .traits .splide__slide {
+    @apply flex justify-center items-center;
+  }
+  .traits .splide__slide > div {
+    @apply transition-all scale-95 duration-700;
+  }
+  .traits .splide__slide.is-next > div {
+    @apply 2xl:max-w-[500px] 2xl:drop-shadow-activeSlide scale-100;
+  }
+
+  .traits .splide__slide.is-next + .splide__slide > div {
+    @apply 2xl:max-w-[500px] 2xl:drop-shadow-activeSlide scale-100 2xl:translate-x-3;
+  }
+  .traits .splide__slide.is-active > div {
+    @apply max-w-[500px] drop-shadow-activeSlide 2xl:max-w-[368px] 2xl:drop-shadow-none scale-100;
+  }
+  .traits .splide__arrow {
+    @apply opacity-100 bg-white  drop-shadow-lg w-12 h-12;
+  }
+  .traits .splide__arrow svg {
+    @apply fill-[#8C244A];
+  }
+}
