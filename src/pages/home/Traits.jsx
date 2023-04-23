@@ -38,14 +38,13 @@ const Traits = () => {
     <div className="wrapper mt-10 sm:mt-20">
       <div className="contain justify-between xl:flex-row flex-col items-center text-center sm:text-left sm:items-start xl:items-center gap-4 xl:gap-6">
         <h3 className="text-secondary leading-[1.25] text-xl sm:text-2xl 2xl:text-[36px] font-bold xl:max-w-[765px]">
-          Picking the next bluechip project is never an easy task, let Maguro
-          diversify your portfolio for you
+          Choosing the next blue chip investment is never simple; let Maguro
+          diversify your portfolio.
         </h3>
         <p className="text-sm sm:text-base font-semibold font-mont relative xl:max-w-[668px] text-[#5A5257]">
-          With $MAGURO you will accumulate good projects on multiple chains
-          throughout the bear market, just by holding! You asked for ARBI
-          season, we're here to ignite it. Be a part of the most exciting new
-          community on the chain from the beginning!
+          Simply by holding $MAGURO throughout the bear market, Users will amass
+          excellent projects on multiple networks. Participate in the chain's
+          most thrilling new community from its inception!
           <span className="bg-primaryGr hidden sm:block absolute top-0 w-[4px] h-full -left-3"></span>
         </p>
       </div>
