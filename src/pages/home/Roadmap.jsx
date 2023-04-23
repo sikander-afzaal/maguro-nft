@@ -35,7 +35,7 @@ const Roadmap = () => {
               MemeFi Development
             </h4>
             <p className="text-secondary max-w-[220px] font-mont">
-              More rewards for holders independent of ZKASH trade volume
+              More rewards for holders independent of maguro trade volume
             </p>
           </div>
           <div className="max-w-[370px] w-full  flex-col gap-3 text-center h-[280px] flex justify-center items-center isolate relative">

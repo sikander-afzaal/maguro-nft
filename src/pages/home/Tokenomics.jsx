@@ -1,6 +1,6 @@
 const Tokenomics = () => {
   return (
-    <div className="wrapper mt-[80px] md:mt-[100px] relative">
+    <div id="tokenomics" className="wrapper mt-[80px] md:mt-[100px] relative">
       <img
         src="/tokenomics.png"
         className="lg:static absolute left-0 top-0 -z-10 lg:h-auto h-full min-h-[600px] 2xl:min-h-0  w-full object-cover "

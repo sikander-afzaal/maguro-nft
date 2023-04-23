@@ -3,34 +3,34 @@ import FaqBtn from "../../components/FaqBtn";
 const Faq = () => {
   const DATA = [
     {
-      question: "What is ZKASH Finance ($ZKASH)?",
+      question: "What is maguro Finance ($maguro)?",
       answer:
-        "ZKASH Finance is a multi-currency and multi-chain reward token. By buying and holding $ZKASH you are farming rewards and accumulating tokens supported by the ZKASH Finance protocol. These tokens are researched and reviewed by our crypto analysts.",
+        "maguro Finance is a multi-currency and multi-chain reward token. By buying and holding $maguro you are farming rewards and accumulating tokens supported by the maguro Finance protocol. These tokens are researched and reviewed by our crypto analysts.",
     },
     {
-      question: "What is the benefit of holding $ZKASH?",
+      question: "What is the benefit of holding $maguro?",
       answer:
-        "By simply holding $ZKASH, the Hamachi Finance protocol will distribute rewards by the platform directly to you.",
+        "By simply holding $maguro, the Hamachi Finance protocol will distribute rewards by the platform directly to you.",
     },
     {
       question: "How do I get my rewards?",
       answer:
-        "You'll be airdropped your rewards once you're first in queue. You can choose to enable Manual Claim or even 'GO ZKASH', this turns your rewards into $ZKASH.",
+        "You'll be airdropped your rewards once you're first in queue. You can choose to enable Manual Claim or even 'GO maguro', this turns your rewards into $maguro.",
     },
     {
       question: "How are rewards generated?",
       answer:
-        "Each buy and sell will be taxed 7%, which will only be used to buy tokens and redistribute to $ZKASH holders as rewards and provide liquidity to $ZKASH LP. (% tax subject to change).",
+        "Each buy and sell will be taxed 7%, which will only be used to buy tokens and redistribute to $maguro holders as rewards and provide liquidity to $maguro LP. (% tax subject to change).",
     },
     {
-      question: "How do projects benefit from $ZKASH?",
+      question: "How do projects benefit from $maguro?",
       answer:
-        "Projects benefit from $ZKASH by gaining exposure and increased unique holders who may not have ever heard of your project.",
+        "Projects benefit from $maguro by gaining exposure and increased unique holders who may not have ever heard of your project.",
     },
     {
       question: "Which tokens will be farmed?",
       answer:
-        "To begin, $ZKASH will begin farming tokens on Arbitrum with plans to go cross-chain and multi-chain to farm additional tokens. With our revolutionary technology we are going to bring mass exposure and rewards to holders via Hamachi Finance.",
+        "To begin, $maguro will begin farming tokens on Arbitrum with plans to go cross-chain and multi-chain to farm additional tokens. With our revolutionary technology we are going to bring mass exposure and rewards to holders via Hamachi Finance.",
     },
     {
       question: "What chains do you plan on expanding?",
@@ -39,7 +39,10 @@ const Faq = () => {
     },
   ];
   return (
-    <div className="wrapper relative pb-[200px] lg:pb-[300px] mt-[100px]">
+    <div
+      id="faq"
+      className="wrapper w-full pb-[200px] lg:pb-[300px] relative  mt-[100px]"
+    >
       <img
         src="/hero-foot.png"
         className="w-full object-cover lg:h-auto h-[250px] lg:object-contain -z-10 absolute bottom-0 right-0"

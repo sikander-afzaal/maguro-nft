@@ -8,7 +8,7 @@ const Hero = () => {
       />
       <div className="contain sm:text-left text-center justify-start pt-[120px] sm:pt-0 sm:justify-center gap-10 sm:gap-20 flex-col items-center lg:items-start h-full">
         <h3 className=" text-3xl sm:text-[40px] drop-shadow lg:drop-shadow-none lg:text-[58px] lg:leading-[1.2] font-bold text-main max-w-[882px]">
-          Build a diverse portfolio with $ZKASH. zKSync Era's first{" "}
+          Build a diverse portfolio with $maguro. zKSync Era's first{" "}
           <span className="text-white">multi-currency </span>
           rewards token.
         </h3>

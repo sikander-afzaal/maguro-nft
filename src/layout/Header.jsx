@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Header = () => {
   const [headerToggle, setHeaderToggle] = useState(false);
@@ -52,21 +54,23 @@ const Header = () => {
             Litepaper
           </a>{" "}
           <div className="bg-white w-[3px] h-7 xl:block hidden"></div>
-          <a
+          <HashLink
             onClick={() => setHeaderToggle(false)}
             className="text-white uppercase font-bold text-xl xl:text-2xl"
-            href="#"
+            to="/#tokenomics"
+            smooth
           >
             Tokenomics
-          </a>{" "}
+          </HashLink>{" "}
           <div className="bg-white w-[3px] h-7 xl:block hidden"></div>
-          <a
+          <HashLink
             onClick={() => setHeaderToggle(false)}
             className="text-white uppercase font-bold text-xl xl:text-2xl"
-            href="#"
+            to="/#faq"
+            smooth
           >
             FAQ
-          </a>{" "}
+          </HashLink>{" "}
           <div className="bg-white w-[3px] h-7 xl:block hidden"></div>
           <div className="flex justify-center items-center gap-3">
             <a onClick={() => setHeaderToggle(false)} href="#" target="blank">
@@ -84,18 +88,21 @@ const Header = () => {
               />
             </a>
           </div>
-          <button
+          <Link
+            to="/overview"
             onClick={() => setHeaderToggle(false)}
-            className="bg-main rounded-xl w-[138px] h-[48px] font-mont text-base font-bold text-secondary"
+            className="bg-main grid place-items-center rounded-xl w-[138px] h-[48px] font-mont text-base font-bold text-secondary"
           >
             App
-          </button>
+          </Link>
         </nav>
-        <img
-          src="/logo.png"
-          className="w-[180px] mix-blend-difference xl:w-[220px] object-contain"
-          alt=""
-        />
+        <Link to="/">
+          <img
+            src="/logo.png"
+            className="w-[180px] mix-blend-difference xl:w-[220px] object-contain"
+            alt=""
+          />
+        </Link>
         <button
           onClick={() => setHeaderToggle((prev) => !prev)}
           className="lg:hidden   block relative z-[91]"
