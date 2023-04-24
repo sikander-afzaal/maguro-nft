@@ -3,9 +3,9 @@ import FaqBtn from "../../components/FaqBtn";
 const Faq = () => {
   const DATA = [
     {
-      question: "What is maguro Finance ($MAGURO)?",
+      question: "What is Maguro Finance ($MAGURO)?",
       answer:
-        "maguro Finance is a multi-currency and multi-chain reward token. By buying and holding $MAGURO you are farming rewards and accumulating tokens supported by the maguro Finance protocol. These tokens are researched and reviewed by our crypto analysts.",
+        "Maguro Finance is a multi-currency and multi-chain reward token. By buying and holding $MAGURO you are farming rewards and accumulating tokens supported by the Maguro Finance protocol. These tokens are researched and reviewed by our crypto analysts.",
     },
     {
       question: "What is the benefit of holding $MAGURO?",
@@ -15,7 +15,7 @@ const Faq = () => {
     {
       question: "How do I get my rewards?",
       answer:
-        "You'll be airdropped your rewards once you're first in queue. You can choose to enable Manual Claim or even 'GO maguro', this turns your rewards into $MAGURO.",
+        "You'll be airdropped your rewards once you're first in queue. You can choose to enable Manual Claim or even 'GO Maguro', this turns your rewards into $MAGURO.",
     },
     {
       question: "How are rewards generated?",

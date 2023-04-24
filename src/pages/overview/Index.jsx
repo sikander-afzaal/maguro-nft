@@ -225,7 +225,7 @@ const Overview = () => {
             </h3>
             <h3 className="text-[#E53935]   text-2xl sm:text-[36px]">12%</h3>
             <div className="flex justify-between  items-center w-full gap-1 ">
-              <p className="text-secondary text-sm font-mont">My maguro</p>
+              <p className="text-secondary text-sm font-mont">My Maguro</p>
               <p className="text-secondary text-2xl font-bold">$124.2 | day</p>
             </div>
             <div className=" w-full mt-5">
@@ -241,7 +241,7 @@ const Overview = () => {
                     onChange={(e) => setInputState(e.target.value)}
                     placeholder={0}
                   />
-                  <p className="text-white text-[28px] font-bold">maguro</p>
+                  <p className="text-white text-[28px] font-bold">Maguro</p>
                 </div>
               </div>
             </div>
