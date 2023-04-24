@@ -62,7 +62,7 @@ const Overview = () => {
         /> */}
           </OverviewBoxLayout>
           <OverviewBoxLayout padding>
-            <h3 className="text-aspidBlue  text-2xl sm:text-[28px]">$maguro</h3>
+            <h3 className="text-aspidBlue  text-2xl sm:text-[28px]">$MAGURO</h3>
             <p className="text-aspidBlue text-[28px] ">
               $0.00057270 <span className="text-success">+20%</span>{" "}
               <span className="text-fail">-20%</span>
@@ -183,7 +183,7 @@ const Overview = () => {
                 <p className="text-secondary text-2xl font-bold">$120.6K</p>
               </div>
               <div className="flex p-4 w-full rounded-xl bg-aspidBlue justify-start items-start flex-col gap-5 xl:mt-20 mt-10 mb-8 xl:mb-0 ">
-                <p className="text-[28px] text-white">Your $maguro Balance</p>
+                <p className="text-[28px] text-white">Your $MAGURO Balance</p>
                 <div className="flex justify-between  items-center w-full gap-1">
                   <p className="text-white font-mont">Daily Rewards</p>
                   <p className="text-white text-2xl font-bold">$8.4K</p>

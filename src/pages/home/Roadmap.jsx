@@ -21,9 +21,6 @@ const Roadmap = () => {
             <h4 className=" sm:mt-0 -mt-2 leading-[1.2] text-secondary text-[30px] sm:text-[36px] font-bold">
               Maguro Protocol <br /> Launch
             </h4>
-            <p className="text-secondary max-w-[220px] font-mont">
-              First Lego built on top of MAGURO Protocol
-            </p>
           </div>
           <div className="max-w-[370px] w-full  flex-col gap-3 text-center h-[280px] flex justify-center items-center isolate relative">
             <img
@@ -34,9 +31,6 @@ const Roadmap = () => {
             <h4 className=" sm:mt-0 -mt-2 leading-[1.2] text-secondary text-[30px] sm:text-[36px] font-bold">
               Maguro Full <br /> Course Reward
             </h4>
-            <p className="text-secondary max-w-[220px] font-mont">
-              More rewards for holders independent of maguro trade volume
-            </p>
           </div>
           <div className="max-w-[370px] w-full  flex-col gap-3 text-center h-[280px] flex justify-center items-center isolate relative">
             <img
@@ -47,9 +41,6 @@ const Roadmap = () => {
             <h4 className=" sm:mt-0 -mt-2 leading-[1.2] text-secondary text-[30px] sm:text-[36px] font-bold">
               Nigri <br /> Collection NFT
             </h4>
-            <p className="text-secondary max-w-[220px] font-mont">
-              BANKER NFT Collection launch
-            </p>
           </div>
         </div>
       </div>

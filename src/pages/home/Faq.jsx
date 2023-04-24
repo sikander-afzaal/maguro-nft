@@ -3,34 +3,34 @@ import FaqBtn from "../../components/FaqBtn";
 const Faq = () => {
   const DATA = [
     {
-      question: "What is maguro Finance ($maguro)?",
+      question: "What is maguro Finance ($MAGURO)?",
       answer:
-        "maguro Finance is a multi-currency and multi-chain reward token. By buying and holding $maguro you are farming rewards and accumulating tokens supported by the maguro Finance protocol. These tokens are researched and reviewed by our crypto analysts.",
+        "maguro Finance is a multi-currency and multi-chain reward token. By buying and holding $MAGURO you are farming rewards and accumulating tokens supported by the maguro Finance protocol. These tokens are researched and reviewed by our crypto analysts.",
     },
     {
-      question: "What is the benefit of holding $maguro?",
+      question: "What is the benefit of holding $MAGURO?",
       answer:
-        "By simply holding $maguro, the Hamachi Finance protocol will distribute rewards by the platform directly to you.",
+        "By simply holding $MAGURO, the Maguro Finance protocol will distribute rewards by the platform directly to you.",
     },
     {
       question: "How do I get my rewards?",
       answer:
-        "You'll be airdropped your rewards once you're first in queue. You can choose to enable Manual Claim or even 'GO maguro', this turns your rewards into $maguro.",
+        "You'll be airdropped your rewards once you're first in queue. You can choose to enable Manual Claim or even 'GO maguro', this turns your rewards into $MAGURO.",
     },
     {
       question: "How are rewards generated?",
       answer:
-        "Each buy and sell will be taxed 7%, which will only be used to buy tokens and redistribute to $maguro holders as rewards and provide liquidity to $maguro LP. (% tax subject to change).",
+        "Each buy and sell will be taxed 7%, which will only be used to buy tokens and redistribute to $MAGURO holders as rewards and provide liquidity to $MAGURO LP. (% tax subject to change).",
     },
     {
-      question: "How do projects benefit from $maguro?",
+      question: "How do projects benefit from $MAGURO?",
       answer:
-        "Projects benefit from $maguro by gaining exposure and increased unique holders who may not have ever heard of your project.",
+        "Projects benefit from $MAGURO by gaining exposure and increased unique holders who may not have ever heard of your project.",
     },
     {
       question: "Which tokens will be farmed?",
       answer:
-        "To begin, $maguro will begin farming tokens on Arbitrum with plans to go cross-chain and multi-chain to farm additional tokens. With our revolutionary technology we are going to bring mass exposure and rewards to holders via Hamachi Finance.",
+        "To begin, $MAGURO will begin farming tokens on Arbitrum with plans to go cross-chain and multi-chain to farm additional tokens. With our revolutionary technology we are going to bring mass exposure and rewards to holders via Maguro Finance.",
     },
     {
       question: "What chains do you plan on expanding?",
